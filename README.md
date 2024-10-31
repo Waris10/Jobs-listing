@@ -1,29 +1,37 @@
-# vue-project
+# Job Listing Project
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple job listing application built with Vue.js. This project fetches data from a mock API server to dynamically display job listings, allowing users to create, read, update, and delete job entries (CRUD functionality).
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Job Listings**: View a dynamic list of job postings fetched from a mock API server.
+- **CRUD Operations**: Users can add new jobs, view details, edit, and delete existing job listings.
+- **Responsiveness**: responsive for both desktop and mobile viewing.
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue.js**: JavaScript framework for building the frontend.
+- **Mock API Server**: For handling dynamic data without a full backend.
 
-## Project Setup
+## Installation
 
-```sh
-npm install
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Waris10/Jobs-listing.git
+   cd into-your-project-directory
+   ```
 
-### Compile and Hot-Reload for Development
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-```sh
-npm run dev
-```
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+4. **Run the mock API server**:
+   ```bash
+   npm run server
+   ```
